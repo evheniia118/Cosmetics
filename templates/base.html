@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    {% load i18n %}
+    {% load time_format %}
+
+    <title>{% trans "Cosmetics Shop" %}</title>
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}?v=2">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+{% if messages %}
+    {% for message in messages %}
+        <div class="alert">
+            {{ message }}
+        </div>
+    {% endfor %}
+{% endif %}
+
+<div class="top-bar">
+    {% if user.is_authenticated %}
+        <span class="user-info">👤 {{ user.username }}</span>
+
+        <a href="/accounts/password_change/" class="btn small">
+            {% trans "Change password" %}
+        </a>
+
+        <form method="post" action="{% url 'cosmetics:custom_logout' %}" style="display:inline;">
+            {% csrf_token %}
+            <button type="submit" class="btn small">
+                {% trans "Logout" %}
+            </button>
+        </form>
+
+    {% else %}
+        <!-- ВАЖЛИВО: без url login -->
+        <a href="/accounts/login/" class="btn small">
+            {% trans "Login" %}
+        </a>
+
+        <a href="{% url 'cosmetics:register' %}" class="btn small">
+            {% trans "Register" %}
+        </a>
+    {% endif %}
+
+    {% get_current_language as LANGUAGE_CODE %}
+
+    <form action="{% url 'set_language' %}" method="post" style="display:inline;">
+        {% csrf_token %}
+        <select name="language" onchange="this.form.submit()" class="btn small">
+            <option value="uk" {% if LANGUAGE_CODE == 'uk' %}selected{% endif %}>UA</option>
+            <option value="en" {% if LANGUAGE_CODE == 'en' %}selected{% endif %}>EN</option>
+            <option value="de" {% if LANGUAGE_CODE == 'de' %}selected{% endif %}>DE</option>
+        </select>
+    </form>
+</div>
+
+<div class="container">
+    <h1 class="main-title">{% trans "Cosmetics Store" %} 🎀</h1>
+
+    {% block content %}
+    {% endblock %}
+</div>
+
+<script>
+    setTimeout(function() {
+        const alerts = document.querySelectorAll('.alert');
+        alerts.forEach(a => a.style.display = 'none');
+    }, 5000);
+</script>
+
+</body>
+</html>

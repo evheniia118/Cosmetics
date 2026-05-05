@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+
+<h2>{{ product.name }}</h2>
+
+<div class="product">
+    <p class="price">💗 {% trans "Price" %}: {{ product.price }} ₴</p>
+
+    <p><b>{% trans "Description" %}:</b>
+        {{ product.description|default:_("No description") }}
+    </p>
+
+    <p><b>{% trans "Stock" %}:</b> {{ product.stock }}</p>
+    <p><b>{% trans "Category" %}:</b> {{ product.category }}</p>
+    <p><b>{% trans "Supplier" %}:</b> {{ product.supplier }}</p>
+    <p><b>{% trans "Country" %}:</b> {{ product.supplier.country }}</p>
+</div>
+
+<div class="actions">
+    <a href="/edit/{{ product.id }}/" class="btn">{% trans "Edit" %}</a>
+    <a href="/delete/{{ product.id }}/" class="btn">{% trans "Delete" %}</a>
+</div>
+
+<a href="/" class="btn">← {% trans "Back" %}</a>
+
+{% endblock %}

@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+msgid "Product added successfully"
+msgstr "Товар успішно додано"
+
+msgid "Product updated"
+msgstr "Товар оновлено"
+
+msgid "Product deleted"
+msgstr "Товар видалено"
+
+msgid "Registration successful"
+msgstr "Реєстрація успішна"
+
+msgid "Cosmetics Shop"
+msgstr "Магазин косметики"
+
+msgid "Change password"
+msgstr "Змінити пароль"
+
+msgid "Logout"
+msgstr "Вийти"
+
+msgid "Login"
+msgstr "Увійти"
+
+msgid "Register"
+msgstr "Реєстрація"
+
+msgid "Cosmetics Store"
+msgstr "Магазин косметики"
+
+msgid "Access denied"
+msgstr "Немає доступу"
+
+msgid "You do not have permission to perform this action"
+msgstr "У вас немає прав для цієї дії"
+
+msgid "Confirm deletion"
+msgstr "Підтвердження видалення"
+
+msgid "Are you sure you want to delete \"%(product.name)s\"?"
+msgstr "Ви впевнені, що хочете видалити \"%(product.name)s\"?"
+
+msgid "Yes, delete"
+msgstr "Так, видалити"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "Price"
+msgstr "Ціна"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "No description"
+msgstr "Немає опису"
+
+msgid "Stock"
+msgstr "Кількість"
+
+msgid "Category"
+msgstr "Категорія"
+
+msgid "Supplier"
+msgstr "Постачальник"
+
+msgid "Country"
+msgstr "Країна"
+
+msgid "Edit"
+msgstr "Редагувати"
+
+msgid "Delete"
+msgstr "Видалити"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Add Product"
+msgstr "Додати продукт"
+
+msgid "Name"
+msgstr "Назва"
+
+msgid "Save"
+msgstr "Зберегти"
+
+msgid "Products"
+msgstr "Продукти"
+
+msgid "Search..."
+msgstr "Пошук..."
+
+msgid "Search"
+msgstr "Пошук"
+
+msgid "Show all"
+msgstr "Показати всі"
+
+msgid "Results for"
+msgstr "Результати для"
+
+msgid "Found"
+msgstr "Знайдено"
+
+msgid "products"
+msgstr "товарів"
+
+msgid "Nothing found"
+msgstr "Нічого не знайдено"
+
+msgid "View"
+msgstr "Переглянути"
+
+msgid "Username"
+msgstr "Логін"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Invalid username or password"
+msgstr "Невірний логін або пароль"
+
+msgid "Password changed"
+msgstr "Пароль змінено"
+
+msgid "Your password has been updated successfully."
+msgstr "Пароль успішно оновлено"
+
+msgid "Back to home"
+msgstr "На головну"
+
+msgid "Old password"
+msgstr "Старий пароль"
+
+msgid "New password"
+msgstr "Новий пароль"
+
+msgid "Confirm password"
+msgstr "Підтвердження пароля"

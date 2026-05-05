@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+
+<h2>{% trans "Add Product" %}</h2>
+
+<form method="post">
+    {% csrf_token %}
+
+    <p>
+        {% trans "Name" %}:<br>
+        {{ form.name }}
+        {{ form.name.errors }}
+    </p>
+
+    <p>
+        {% trans "Price" %}:<br>
+        {{ form.price }}
+        {{ form.price.errors }}
+    </p>
+
+    <p>
+        {% trans "Stock" %}:<br>
+        {{ form.stock }}
+        {{ form.stock.errors }}
+    </p>
+
+    <p>
+        {% trans "Category" %}:<br>
+        {{ form.category }}
+    </p>
+
+    <p>
+        {% trans "Supplier" %}:<br>
+        {{ form.supplier }}
+    </p>
+
+    <p>
+        {% trans "Description" %}:<br>
+        {{ form.description }}
+    </p>
+
+    <button type="submit" class="btn">
+        {% trans "Save" %}
+    </button>
+</form>
+
+<a href="/" class="btn">
+    ← {% trans "Back" %}
+</a>
+
+{% endblock %}

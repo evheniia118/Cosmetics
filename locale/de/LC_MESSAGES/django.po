@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Product added successfully"
+msgstr "Produkt erfolgreich hinzugefügt"
+
+msgid "Product updated"
+msgstr "Produkt aktualisiert"
+
+msgid "Product deleted"
+msgstr "Produkt gelöscht"
+
+msgid "Registration successful"
+msgstr "Registrierung erfolgreich"
+
+msgid "Cosmetics Shop"
+msgstr "Kosmetikgeschäft"
+
+msgid "Change password"
+msgstr "Passwort ändern"
+
+msgid "Logout"
+msgstr "Abmelden"
+
+msgid "Login"
+msgstr "Anmelden"
+
+msgid "Register"
+msgstr "Registrieren"
+
+msgid "Cosmetics Store"
+msgstr "Kosmetikgeschäft"
+
+msgid "Access denied"
+msgstr "Zugriff verweigert"
+
+msgid "You do not have permission to perform this action"
+msgstr "Sie haben keine Berechtigung für diese Aktion"
+
+msgid "Confirm deletion"
+msgstr "Löschen bestätigen"
+
+msgid "Are you sure you want to delete \"%(product.name)s\"?"
+msgstr "Möchten Sie \"%(product.name)s\" wirklich löschen?"
+
+msgid "Yes, delete"
+msgstr "Ja, löschen"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Price"
+msgstr "Preis"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "No description"
+msgstr "Keine Beschreibung"
+
+msgid "Stock"
+msgstr "Menge"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Supplier"
+msgstr "Lieferant"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Add Product"
+msgstr "Produkt hinzufügen"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Products"
+msgstr "Produkte"
+
+msgid "Search..."
+msgstr "Suchen..."
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Show all"
+msgstr "Alle anzeigen"
+
+msgid "Results for"
+msgstr "Ergebnisse für"
+
+msgid "Found"
+msgstr "Gefunden"
+
+msgid "products"
+msgstr "Produkte"
+
+msgid "Nothing found"
+msgstr "Nichts gefunden"
+
+msgid "View"
+msgstr "Ansehen"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Invalid username or password"
+msgstr "Ungültiger Benutzername oder Passwort"
+
+msgid "Password changed"
+msgstr "Passwort geändert"
+
+msgid "Your password has been updated successfully."
+msgstr "Ihr Passwort wurde erfolgreich aktualisiert"
+
+msgid "Back to home"
+msgstr "Zur Startseite"
+
+msgid "Old password"
+msgstr "Altes Passwort"
+
+msgid "New password"
+msgstr "Neues Passwort"
+
+msgid "Confirm password"
+msgstr "Passwort bestätigen"
+
+msgid "Results for \"%(query)s\""
+msgstr "Ergebnisse für \"%(query)s\""

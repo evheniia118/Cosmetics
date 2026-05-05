@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+
+<h2>{% trans "Products" %}</h2>
+
+<form method="get" class="search-form">
+    <input type="text" name="q" placeholder="{% trans 'Search...' %}"
+           value="{{ request.GET.q }}" class="search-input">
+    <button type="submit" class="btn search-btn">{% trans "Search" %}</button>
+</form>
+
+{% if request.GET.q %}
+    <a href="/" class="btn">{% trans "Show all" %}</a>
+    <p>{% trans "Results for" %}: "{{ request.GET.q }}"</p>
+{% endif %}
+
+{% if query %}
+    <p>{% trans "Found" %}: {{ result_count }} {% trans "products" %}</p>
+{% endif %}
+
+{% if not products %}
+    <p>{% trans "Nothing found" %}</p>
+{% endif %}
+
+<a href="{% url 'cosmetics:product_create' %}" class="btn">{% trans "Add Product" %}</a>
+
+{% for p in products %}
+    <div class="product">
+        <p><b>{{ p.name }}</b></p>
+        <p class="price">💗 {% trans "Price" %}: {{ p.price }} ₴</p>
+        <a href="/product/{{ p.id }}/" class="btn">{% trans "View" %}</a>
+    </div>
+{% endfor %}
+
+{% endblock %}

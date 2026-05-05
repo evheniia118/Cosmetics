@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 18:32+0000\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: cosmetics/views.py:66
+msgid "Product added successfully"
+msgstr ""
+
+#: cosmetics/views.py:83
+#, fuzzy
+#| msgid "Products"
+msgid "Product updated"
+msgstr "Products"
+
+#: cosmetics/views.py:99
+#, fuzzy
+#| msgid "Products"
+msgid "Product deleted"
+msgstr "Products"
+
+#: cosmetics/views.py:126
+msgid "Registration successful"
+msgstr ""
+
+#: templates/base.html:8
+msgid "Cosmetics Shop"
+msgstr "Cosmetics Shop"
+
+#: templates/base.html:29 templates/registration/password_change_form.html:7
+#: templates/registration/password_change_form.html:27
+msgid "Change password"
+msgstr "Change password"
+
+#: templates/base.html:35
+msgid "Logout"
+msgstr "Logout"
+
+#: templates/base.html:41 templates/registration/login.html:7
+#: templates/registration/login.html:22
+msgid "Login"
+msgstr "Login"
+
+#: templates/base.html:44
+msgid "Register"
+msgstr "Register"
+
+#: templates/base.html:61
+msgid "Cosmetics Store"
+msgstr "Cosmetics Store"
+
+#: templates/forbidden.html:5
+msgid "Access denied"
+msgstr "Access denied"
+
+#: templates/forbidden.html:6
+msgid "You do not have permission to perform this action"
+msgstr "You do not have permission to perform this action"
+
+#: templates/product_confirm_delete.html:6
+msgid "Confirm deletion"
+msgstr "Confirm deletion"
+
+#: templates/product_confirm_delete.html:11
+#, python-format
+msgid "Are you sure you want to delete \"%(product.name)s\"?"
+msgstr "Are you sure you want to delete \"%(product.name)s\"?"
+
+#: templates/product_confirm_delete.html:17
+msgid "Yes, delete"
+msgstr "Yes, delete"
+
+#: templates/product_confirm_delete.html:24
+msgid "Cancel"
+msgstr "Cancel"
+
+#: templates/product_detail.html:9 templates/product_form.html:18
+#: templates/product_list.html:32 templates/register.html:37
+msgid "Price"
+msgstr "Price"
+
+#: templates/product_detail.html:11 templates/product_form.html:40
+msgid "Description"
+msgstr "Description"
+
+#: templates/product_detail.html:12
+msgid "No description"
+msgstr "No description"
+
+#: templates/product_detail.html:15 templates/product_form.html:24
+msgid "Stock"
+msgstr "Stock"
+
+#: templates/product_detail.html:16 templates/product_form.html:30
+msgid "Category"
+msgstr "Category"
+
+#: templates/product_detail.html:17 templates/product_form.html:35
+msgid "Supplier"
+msgstr "Supplier"
+
+#: templates/product_detail.html:18
+msgid "Country"
+msgstr "Country"
+
+#: templates/product_detail.html:22
+msgid "Edit"
+msgstr "Edit"
+
+#: templates/product_detail.html:23
+msgid "Delete"
+msgstr "Delete"
+
+#: templates/product_detail.html:26 templates/product_form.html:50
+msgid "Back"
+msgstr "Back"
+
+#: templates/product_form.html:6 templates/product_list.html:27
+#: templates/register.html:32
+msgid "Add Product"
+msgstr "Add Product"
+
+#: templates/product_form.html:12
+msgid "Name"
+msgstr "Name"
+
+#: templates/product_form.html:45
+msgid "Save"
+msgstr "Save"
+
+#: templates/product_list.html:6 templates/register.html:6
+msgid "Products"
+msgstr "Products"
+
+#: templates/product_list.html:9 templates/register.html:9
+msgid "Search..."
+msgstr "Search..."
+
+#: templates/product_list.html:11 templates/register.html:11
+msgid "Search"
+msgstr "Search"
+
+#: templates/product_list.html:15 templates/register.html:15
+msgid "Show all"
+msgstr "Show all"
+
+#: templates/product_list.html:16
+#, fuzzy
+#| msgid "Results for \"%(query)s\""
+msgid "Results for"
+msgstr "Results for \"%(query)s\""
+
+#: templates/product_list.html:20
+msgid "Found"
+msgstr ""
+
+#: templates/product_list.html:20
+#, fuzzy
+#| msgid "Products"
+msgid "products"
+msgstr "Products"
+
+#: templates/product_list.html:24 templates/register.html:29
+msgid "Nothing found"
+msgstr "Nothing found"
+
+#: templates/product_list.html:33 templates/register.html:38
+msgid "View"
+msgstr "View"
+
+#: templates/register.html:18
+#, fuzzy, python-format
+#| msgid "Results for \"%(query)s\""
+msgid "Results for \"%(request.GET.q)s\""
+msgstr "Results for \"%(query)s\""
+
+#: templates/register.html:24
+#, fuzzy, python-format
+#| msgid "Found %(count)s products"
+msgid "Found %(result_count)s products"
+msgstr "Found %(count)s products"
+
+#: templates/registration/login.html:13
+msgid "Username"
+msgstr ""
+
+#: templates/registration/login.html:18
+#, fuzzy
+#| msgid "Change password"
+msgid "Password"
+msgstr "Change password"
+
+#: templates/registration/login.html:27
+msgid "Invalid username or password"
+msgstr ""
+
+#: templates/registration/password_change_done.html:7
+msgid "Password changed"
+msgstr ""
+
+#: templates/registration/password_change_done.html:8
+msgid "Your password has been updated successfully."
+msgstr ""
+
+#: templates/registration/password_change_done.html:10
+msgid "Back to home"
+msgstr ""
+
+#: templates/registration/password_change_form.html:13
+#, fuzzy
+#| msgid "Change password"
+msgid "Old password"
+msgstr "Change password"
+
+#: templates/registration/password_change_form.html:18
+#, fuzzy
+#| msgid "Change password"
+msgid "New password"
+msgstr "Change password"
+
+#: templates/registration/password_change_form.html:23
+#, fuzzy
+#| msgid "Change password"
+msgid "Confirm password"
+msgstr "Change password"
